@@ -19,6 +19,7 @@ function App() {
     <Router>
       <div className="App">
         <h1>E-Commerce Web Application</h1>
+          <NavBar/>
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
           <Route path="/customers/create" element={CreateCustomerForm} />
